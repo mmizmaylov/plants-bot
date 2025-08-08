@@ -2,8 +2,8 @@
 set -euo pipefail
 
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/<your-username>/plants-bot/main/deploy/setup-ubuntu-docker.sh | bash -s -- \
-#     --repo-url https://github.com/<your-username>/plants-bot.git \
+#   curl -fsSL https://raw.githubusercontent.com/mmizmaylov/plants-bot/main/deploy/setup-ubuntu-docker.sh | bash -s -- \
+#     --repo-url https://github.com/mmizmaylov/plants-bot.git \
 #     --telegram-token <TOKEN> \
 #     --openai-key <KEY> \
 #     [--model gpt-4o-mini]

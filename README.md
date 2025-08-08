@@ -24,7 +24,7 @@ Telegram-бот для распознавания растений по фото
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mmizmaylov/plants-bot.git
    cd plants-bot
    ```
 
