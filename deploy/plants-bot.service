@@ -1,0 +1,14 @@
+[Unit]
+Description=Plants Telegram Bot
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/plants-bot
+EnvironmentFile=/etc/plants-bot.env
+ExecStart=/opt/plants-bot/.venv/bin/python -m app.bot
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target 
